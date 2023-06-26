@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contactUs.css">
+    <title>Contact Us</title>
+    <style>
+      *{
+        font-family: 'Josefin Sans', sans-serif;
+      }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      
+      <header>
+        <div class="backArrow">
+            <a href="..\Home\index.html" ><img src="backArrow.png" alt="logo" class="logo_back"></a>
+        </div>
+
+        <div class="logo_div">
+        <a href="..\Home\index.html" ><img src="logo.png" alt="logo" class="logo"></a>
+        </div>
+        
+    </header>
+<div  id="Conus" >
+  <h2 class="active"> Contact US </h2>
+  <form>
+   
+    
+
+   Name:<input type="text" class="text" name="Name" id="Name">
+
+    <br>
+
+
+    E-mail:<input type="email" class="text" name="E-mail" id="E-mail">
+    <br>
+    Phone:<input type="tel" class="text" name="Phone" id="Phone">
+    <br>
+    Note:
+    <br>
+    <textarea id="texta"></textarea>
+<!--     
+    <button >
+        Submit    </button> -->
+        <input type="submit" value="submit" class="submit">
+
+
+    <hr>
+  </form>
+
+  <!-- <script>
+        function WriteToFile(passForm) {
+          
+    
+    // set fso = CreateObject("Scripting.FileSystemObject"); 
+    //  set s  = fso.CreateTextFile("../CONTACT US/Details.txt", True);
+
+     var myObject, newfile;
+        myObject = new ActiveXObject("Scripting.FileSystemObject");
+        newfile = myObject.CreateTextFile("Details.txt", true);
+
+    var tName = document.getElementById('Name').value;
+    var email  = document.getElementById('E-mail');
+    var Phone  = document.getElementById('Phone');
+    var texta  = document.getElementById('texta');
+
+    // s.writeline("First Name :" + FirstName);
+    // s.writeline("Last Name :" + email);
+    // s.writeline("Last Name :" + Phone);
+    // s.writeline("Last Name :" + texta);
+
+    // s.writeline("-----------------------------");
+    // s.Close();
+    newfile.writeline("First Name :" + FirstName);
+    newfile.writeline("Last Name :" + email);
+    newfile.writeline("Last Name :" + Phone);
+    newfile.writeline("Last Name :" + texta);
+
+    newfile.writeline("-----------------------------");
+    newfile.Close();
+    }
+  </script> -->
+</div>
+</body>
+</html>

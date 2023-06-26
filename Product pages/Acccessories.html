@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="page1.css">
+    <title>Acccessories</title>
+    
+            <style>
+      *{
+        font-family: 'Josefin Sans', sans-serif;
+      }
+    
+.img_div{
+    /* background-color: brown; */
+    width: 700px;
+    height: 400px;
+    margin-top: 290px;
+    margin-left: 30px;
+    display: flex;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+.img1{
+    margin: 0px 4px;
+
+}
+#id-img1{
+    width: 300px;
+    height: 300px;
+}
+.todowm{
+    display: flex;
+    width:700px;
+    /* background-color: blue; */
+    position: relative;
+    top: 305px;
+    right:300px;
+}
+#div1{
+    width: 300px;
+    height: 300px; 
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <div class="backArrow">
+            <a href="..\Home\index.html" ><img src="backArrow.png" alt="logo" class="logo_back"></a>
+        </div>
+
+        <div class="logo_div">
+        <a href="..\Home\index.html" ><img src="logo.png" alt="logo" class="logo"></a>
+        </div>
+        
+        <div class="cta_div">
+        <a href="..\CONTACT US\contactUs.html" class="cta"><button> Contact</button></a>
+        </div>
+    </header>
+    <div class="ds"><pre>    <h3>      This usb c to vga adapter is built-in conversion chip, plug and play, 
+      no need to install any drivers/software or external power supply.
+      Usb C (Thunderbolt 3)to VGA enables you to connect a USB C
+      computer or phone to an VGA-equipped Display, monitor, projector.</h3></pre>
+     <div class="Opt">
+         <form action="">
+    <span style="color: black;">Length :</span><select class="slide">
+        <option value="">Length Select</option>
+        <option value="">30 cm</option>
+        <option value="">1 m</option>
+        <option value="">2 m</option>
+     </select>
+     <br><br>
+    <span style="color: black;">USB input :</span> <select class="slide">
+        <option value="">USB input Select</option>
+        <option value="">3 input</option>
+        <option value="">5 input</option>
+        <option value="">8 input</option>
+    </select>
+    <br><br>
+    <span style="color: black;">Gift :</span><select class="slide">
+        <option value="">Gift Select</option>
+        <option value="">usb hub small</option>
+        <option value="">flash 16 GB</option>
+        <option value="">Memory 32GB</option>
+    </select>
+    <br>
+    <button class="Su">Submit</button>
+    </div>
+
+    
+</form>
+</div>
+     <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="9.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="10.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="11.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="12.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center" id="tpa">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+        <!-- <div class="img_div">
+
+            <div id="div1">
+            <a href="#" id="img1" ><img src="1.jpg" alt="1" class="img1" id="id-img1" width="200px" height="200px"></a>
+        </div>
+        <div class="todowm">
+        
+            <a href="#" id="img2"><img src="2.jpg" alt="2" class="img1" width="200px" height="200px"></a>
+            
+            
+            <a href="#" id="img3"><img src="3.jpg" alt="3" class="img1" width="200px" height="200px"></a>
+             
+             
+            <a href="#" id="img4"><img src="4.jpg" alt="4" class="img1" width="200px" height="200px"></a>
+            
+        </div>
+            </div> -->
+
+<script>
+var img1=document.getElementById("img1");
+var img2=document.getElementById("img2");
+var img3=document.getElementById("img3");
+var img4=document.getElementById("img4");
+
+function selectimages(){
+
+
+
+
+
+
+
+}
+
+
+</script>
+</body>
+</html>

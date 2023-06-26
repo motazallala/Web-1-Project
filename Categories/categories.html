@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML dynamic table using JavaScript</title>
+    <script type="text/javascript" src="app.js"></script>
+    <!-- <link rel="stylesheet" href="/About/styleAbout.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Categories</title>
+    <style>
+        *{
+          font-family: 'Josefin Sans', sans-serif;
+        }
+      </style>
+</head>
+<body onload="load()">
+    <header>
+        <div class="backArrow">
+            <a href="..\Home\index.html" ><img src="backArrow.png" alt="logo" class="logo_back"></a>
+        </div>
+
+        <div class="logo_div">
+        <a href="..\Home\index.html" ><img src="logo.png" alt="logo" class="logo"></a>
+        </div>
+        
+        <div class="cta_div">
+        <a href="..\CONTACT US\contactUs.html" class="cta"><button> Contact</button></a>
+        </div>
+    </header>
+
+
+<div class="content">
+
+
+
+
+
+    <div id="main_content">
+        <span>
+        Select the part :
+        <select name="" id="" onchange="cat(this.value) ,enable()">
+            <optgroup><option value="Select your card type">Select your card type</option></optgroup>
+            <option value="CPU">CPU</option>
+            <option value="GPU">GPU</option>
+            <option value="RAM">RAM</option>
+            <option value="Motherboard">Motherboard</option>
+            <option value="Case">Case</option>
+            <option value="Monitor">Monitor</option>
+        </select><br>
+         Select the part :
+        <select name="" id="cat_con" onchange="check_type(this.value)">
+            
+        </select><br>
+        <div id="control_bar">
+         Quantity: <input type="number" name="" id="quantity" max="10" min="1" value="1" placeholder="How much part?"><br>
+    
+
+        <input type="button" id="add" value="Add" onclick="Javascript:addRow()">
+       <div id="total_s">Total:-<input type="text" name="" id="total_View"></div> 
+
+    </div>
+    </span>
+    </div>
+
+    <div id="mydata">
+        <table id="myTableData" >
+            <tr id="first_row">
+                   <td id="delete">Delete</td>
+                   <td><b>Type</b></td>
+                   <td><b>Name</b></td>
+                  <td><b>Quantity</b></td>
+                  <td><b>Price</b></td>
+            </tr>
+        </table>
+    </div>
+
+
+</div>
+
+
+
+
+<script>
+
+    document.getElementById("cat_con").disabled = true;
+    function enable(){
+        document.getElementById("cat_con").disabled = false;
+    }
+        document.getElementById("cat_con").innerHTML="<optgroup><option value='Select your card type'>Select your card type</option></optgroup>";
+</script>
+</body>
+</html>

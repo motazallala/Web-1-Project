@@ -1,0 +1,161 @@
+body {
+  background-color: #050505;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* header{
+  /* display: fixed;
+ justify-content:left;
+ align-items: center; */
+ /* padding: 30px 10%; */
+ /* z-index:9999; 
+
+}*/
+
+.logo_div{
+  position:absolute;
+  left: 620px;
+  top: 20px;
+  width: 230px;
+  height: 70px;
+  /* background-color: #4082f5 */
+}
+.backArrow{
+  position:absolute;
+  width: 230px;
+  height: 70px;
+  /* background-color: aqua; */
+  z-index:1;
+  top: 12px;
+}
+#asa{
+  position:absolute;
+  /* background-color: #4082f5; */
+  z-index: 1;
+  width: 230px;
+  height: 70px;
+  left: 1390px;
+  top: 20px;
+}
+
+.logo{
+  /* margin-bottom: 90%; */
+  cursor: pointer;
+  width: 200px;
+
+
+}
+.logo_back{
+  position: fixed;
+}
+
+button{
+  /* margin-left: 20px; */
+   padding: 15px;
+   width: 110px;
+   background-color: rgb(230, 6, 6);
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   color: white;
+   transition: all 0.3s ease 0s;
+   position: fixed;
+}
+.logo{
+  position: fixed;
+}
+
+button:hover{
+   background-color: rgba(10, 10, 10, 0.445);
+}
+
+#Conus{
+  position: absolute;
+  top: 120px;
+  left: 380px;
+  height: 460px;
+  width: 600px;
+  /*margin: auto;
+  margin-top: center;
+  margin-left: auto;
+  margin-right:50%;
+  margin-top:50%;*/
+  padding: 60px 60px;
+  background: url(laptop.jpg) no-repeat   center center #505050; 
+  /* background: url(contact-us.jpg) no-repeat   center center #505050;   */
+  background-size: cover;
+  box-shadow: 0px 30px 60px -5px #000;
+  border-radius: 20px;
+}
+/* .logo{
+  cursor: pointer;
+  width: 200px;
+  margin-right: auto;
+  position: fixed;
+  margin: center;
+} */
+
+
+.active {
+  border-bottom: 2px solid #ed1111;
+  
+}
+
+
+.active {
+  padding-left: 12px;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 1px;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 100;
+  margin-left: 230px
+}
+
+/* h2:first-child {
+  padding-left: 0px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+  margin-left: 110px;
+}
+
+
+
+
+
+
+
+a {
+  /* text-align: center; */
+  /* display: block; */
+  /* top: 120px;
+  position: relative; */
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.2);
+}

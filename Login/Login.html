@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylelogin.css">
+    <title>Login</title>
+    <style>
+      *{
+        font-family: 'Josefin Sans', sans-serif;
+      }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      
+<nav>
+    <a href="..\Home\index.html"><img src="logo.png" alt="logo" class="logo"></a>
+</nav>
+<div  id="Conus">
+  <h2 class="active"></h2>
+  <form>
+   
+
+
+    E-mail:<input type="email" class="text" name="E-mail" id="email">
+    <br><br><br>
+    Password:<input type="password" class="text" name="pass" id="pass">
+    <h2 id="ss"></h2>
+    
+    <button type="button" class="submit" value="Login" onclick="adminstreter()">Login</button>
+    
+    
+  </form>
+
+  <div id="goHomeDiv">
+    <a href="..\Home\index.html" id="user">Go To The Shop</a>
+  </div>
+</div>
+
+
+
+<script>
+  
+function adminstreter(){
+  
+  var email = document.getElementById("email").value;
+  var pass = document.getElementById("pass").value;
+  if(email=="www.hot122@gmail.com" && pass=="0780606702"){
+    localStorage.setItem("passon","on");
+    window.location.href="../Home/index.html";
+  }
+  else if(email=="test@test.com" && pass=="test"){
+    localStorage.setItem("passon","on");
+    window.location.href="../Home/index.html";
+    
+  }
+  else{
+    alert("This Account Does Not Have Permissions For Administrator Controls!!!!!");
+  }
+}
+
+</script>
+
+</body>
+</html>
