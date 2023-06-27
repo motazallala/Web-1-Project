@@ -7,7 +7,7 @@
 
 One to two paragraph statement about your product and what it does.
 
-![RMsrc](Screenshot 2023-06-27 175232.png)
+<img src="RMsrc/Screenshot 2023-06-27 175232.png" width="128"/>
 
 ## Installation
 
