@@ -1,78 +1,68 @@
-# Product Name
-> Short blurb about what your product does.
-
+# Web 1 project
+> The web application is a store for electronics such as parts and laptops .... etc.
+<!--
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
+-->
+I worked on a site for selling computer parts, where the
+user can put whatever parts he chose from several
+parts displayed in the store and calculate the total
+prices of the parts, and also the admin can add parts
+to the store after logging in
 
-One to two paragraph statement about your product and what it does.
+The technology used for this project: JavaScript | HTML| CSS
+
+
+
+
+## UI Description
+### The main page for the shop:
 
 <img src="RMsrc/Screenshot 2023-06-27 175232.png"/>
 
-## Installation
 
-OS X & Linux:
 
-```sh
-npm install my-crazy-module --save
-```
+#### If you use the user option, you can see the product and scroll the slide shows and select or see the best-selling item in the shop.
 
-Windows:
 
-```sh
-edit autoexec.bat
-```
+### Log In Page :
 
-## Usage example
+<img src="RMsrc/Screenshot 2023-06-27 175331.png"/>
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+#### On this page there are two options you can choose from, the user can select the first option the administrator page, and the second option the user page.
 
-## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
-```sh
-make install
-npm test
-```
+### Main page for Administrator :
 
-## Release History
+<img src="RMsrc/Screenshot 2023-06-27 175232.png"/>
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+
+#### If you use the administrator option you can see the product and scroll like the user but also you can an added items to the best selling this option automatically appears on the main page.
+
+
+
+## My note on this project
+
+In this project, I tried to find a way to store the pieces of data without using any kind of database because during that stage I was still in my second year of university and still learning.
+Although it is a simple project, it has a goat in my heart 😁
+
+
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+MotazAllala – [@/LinkedIn](https://www.linkedin.com/in/motaz-allala-b9699922a/) – YourEmail@example.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
 
-## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+[npm-image]: 
+[npm-url]: 
+[npm-downloads]:
+[travis-image]: 
+[travis-url]: 
+[wiki]: 
