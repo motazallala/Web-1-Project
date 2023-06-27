@@ -53,7 +53,7 @@ Although it is a simple project, it has a goat in my heart 😁
 
 ## Meta
 
-MotazAllala – [@/LinkedIn](https://www.linkedin.com/in/motaz-allala-b9699922a/) – YourEmail@example.com
+MotazAllala – [@/LinkedIn](https://www.linkedin.com/in/motaz-allala-b9699922a/) – motazallala99gmail.com
 
 
 
